@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery UI</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="script.js"></script>
+
+	<style>
+		img {
+			width:500px;
+			height: 500px;
+		}
+	</style>
+
+</head>
+<body onload="x()">
+	<button type="button" data-filter="all">All</button>
+	<button type="button" data-filter=".summer">Summer</button>
+	<button type="button" data-filter=".autumn">Autumn</button>
+	<button type="button" data-filter=".winter">Winter</button>
+	<button type="button" data-filter=".spring">Spring</button>
+
+	<div class="container">
+	    <div class="mix summer">
+	    	<img src="https://static.wixstatic.com/media/e48d01_e1e5d15d347a4b32a5d07aa03d0378e5~mv2_d_2560_1600_s_2.jpg" alt="">
+	    </div>
+	    <div class="mix autumn">
+	    	<img src="http://dreamatico.com/data_images/autumn/autumn-5.jpg" alt="">
+	    </div>
+	    <div class="mix winter">
+	    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/CathedralofLearningLawinWinter.jpg/1200px-CathedralofLearningLawinWinter.jpg" alt="">
+	    </div>
+	    <div class="mix spring">
+	    	<img src="https://hawksmoor.com/content/blog/put-a-spring-in-your-step/spring.jpg" alt="">
+	    </div>
+	    
+	</div>
+</body>
+</html>
